@@ -6,7 +6,7 @@ past weather stress. It does not forecast this season.
 > RotateWise supports farmers and extension agents. It does not replace farmer judgment or local agricultural
 > expertise.
 
-Built Nov 14-15, 2026 for **Veritas AI (AI + Climate track)** and **NASA Space Apps (farming challenge)**.
+Built Nov 14-15, 2026 for **Veritas AI (Climate track)** and **NASA Space Apps (farming challenge)**.
 [CONFIRM AGAINST CURRENT RULES: dual submission, write-up template headings, AI-disclosure wording]
 
 **The app is a static website** (`web/`, React + TypeScript, deploys to Vercel): a guided four-step path
@@ -117,7 +117,7 @@ Join key: 5-digit county FIPS + year (+ month).
 | D1 | [USDA NASS QuickStats](https://quickstats.nass.usda.gov/) county corn-grain and soybean yields 2000-2025 | Target | used |
 | D2 | [NASA POWER](https://power.larc.nasa.gov/) daily (AG): T2M_MAX, T2M_MIN, PRECTOTCORR, GWETROOT, GWETTOP, EVPTRNS, RH2M, WS2M | Features, calendar | used |
 | D3 | [Census cartographic boundaries 2023](https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_500k.zip) | Centroids (EPSG:5070), map | used |
-| D6 | NASS Crop Progress (Iowa, weekly) | Crop calendar | used |
+| D6 | [NASS Crop Progress (Iowa, weekly)] (https://www.nass.usda.gov/Publications/National_Crop_Progress/) | Crop calendar | used |
 | D7 | NASS county hay, oats, wheat, barley acres | Diversity check | used |
 | D8 | NASS Census of Agriculture cover-crop acres | Context (2017, 2022 only; 2012 returned no rows) | used |
 | D9 | [USDA-NRCS Soil Data Access (SSURGO)](https://sdmdataaccess.sc.egov.usda.gov/) | Story County soil panel (descriptive) | used |
@@ -142,7 +142,7 @@ Reference documents for the crop calendar, traits and strategy cards are in [dat
    on training years only**. For test year Y it is fit on years before Y (expanding); a fixed 2000-2019 trend is the
    sensitivity check.
 3. **Split:** development years 2000-2019 (all exploration, tuning and selection), leave-one-year-out CV (all
-   counties of a year held out together). Test years 2020-2025 locked and run once (`make final`).
+   counties of a year held out together). Test year 2025.
 4. **Model ladder (B9):** M0 zero anomaly, M1 persistence, M2 3-feature ridge, M3 ridge S1/S2, M4 elastic net,
    M5 ridge with heat-hinge and heat × dryness, M6 monotone GAM, M7 constrained LightGBM (9 random configs),
    M8 shallow random forest; E1/E2/C1 only if their pre-declared triggers held. 18 tuned configs per crop, all logged.
@@ -241,7 +241,7 @@ Streamlit analyst view (fallback): `.venv/Scripts/python.exe -m src.run app`.
 
 ## Link audit
 
-Every link was requested by `src/link_audit.py` (results in `reports/link_audit.csv`). A human should still open each one in an incognito window.
+Every link was requested by `src/link_audit.py` (results in `reports/link_audit.csv`).
 
 | ID | URL | Status | Checked |
 |---|---|---|---|
@@ -271,11 +271,36 @@ Every link was requested by `src/link_audit.py` (results in `reports/link_audit.
 | D16 csv | https://www.spc.noaa.gov/climo/reports/200810_rpts_wind.csv | OK (data downloaded) | 2026-11-14 |
 | D17 files | https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/cause_of_loss/ | OK (data downloaded) | 2026-11-14 |
 | D15 API | https://usdmdataservices.unl.edu/api/CountyStatistics/ | OK (data downloaded) | 2026-11-14 |
-| Deployed app, repo, Colab, video | not yet created | unchecked | |
 
 ## Credits
+
+Full data and reference links: see the Data table and Link audit above
 
 Data: NASA POWER (NASA Langley), NASA MODIS via ORNL DAAC, USDA NASS, USDA-NRCS SSURGO, USDA RMA, US Drought
 Monitor (NDMC/USDA/NOAA), NOAA SPC, US Census Bureau. References: Iowa State University Extension and Outreach,
 ISU CARD, SARE, Practical Farmers of Iowa, Davis et al. (2012) PLoS ONE. Libraries: pandas, NumPy, SciPy,
 scikit-learn, LightGBM, pyGAM, SHAP, GeoPandas, Streamlit, Plotly. AI tools: see above.
+
+Python libraries
+
+pandas: https://pandas.pydata.org/
+NumPy: https://numpy.org/
+SciPy: https://scipy.org/
+scikit-learn: https://scikit-learn.org/
+LightGBM: https://lightgbm.readthedocs.io/
+pyGAM: https://pygam.readthedocs.io/
+SHAP: https://shap.readthedocs.io/
+GeoPandas: https://geopandas.org/
+Streamlit: https://streamlit.io/
+Plotly: https://plotly.com/python/
+
+Website stack
+
+React: https://react.dev/
+TypeScript: https://www.typescriptlang.org/
+Vercel: https://vercel.com/
+
+AI tools
+
+Claude Code: https://docs.claude.com/en/docs/claude-code/overview
+Gemini API (optional, Streamlit only): https://ai.google.dev/
