@@ -18,7 +18,6 @@ D3,https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_500k.zip,OK,
 D7,https://quickstats.nass.usda.gov/,OK,2026-11-14
 D8,https://quickstats.nass.usda.gov/,OK,2026-11-14
 D9,https://sdmdataaccess.sc.egov.usda.gov/,OK,2026-11-14
-D11,https://modis.ornl.gov/rst/api/v1/,FAILED (ReadTimeout),2026-11-14
 D15,https://droughtmonitor.unl.edu/,OK,2026-11-14
 D16,https://www.spc.noaa.gov/climo/reports/200810_rpts.html,OK,2026-11-14
 D17,https://www.rma.usda.gov/tools-reports/summary-of-business/cause-loss,OK,2026-11-14
