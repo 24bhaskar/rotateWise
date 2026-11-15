@@ -6,8 +6,7 @@ past weather stress. It does not forecast this season.
 > RotateWise supports farmers and extension agents. It does not replace farmer judgment or local agricultural
 > expertise.
 
-Built Nov 14-15, 2026 for **Veritas AI (Climate track)** and **NASA Space Apps (farming challenge)**.
-[CONFIRM AGAINST CURRENT RULES: dual submission, write-up template headings, AI-disclosure wording]
+Built Nov 14-15, 2026 for **NASA Space Apps (farming challenge)**.
 
 **The app is a static website** (`web/`, React + TypeScript, deploys to Vercel): a guided four-step path
 (Your county → What hurts yields → Your options → Talk it over) plus an Evidence section for judges and agronomists.
@@ -193,7 +192,6 @@ Reference documents for the crop calendar, traits and strategy cards are in [dat
 | Gemini (Google), optional | Rewrites a computed strategy card in plain language; rejected if it adds any number | Streamlit fallback only, when `GEMINI_API_KEY` is set. Not used by the website (a browser-side key would be exposed) |
 
 Human checks are tracked in [reports/provenance.md](reports/provenance.md).
-[CONFIRM AGAINST CURRENT RULES: required disclosure wording]
 
 ## Reproduce
 
