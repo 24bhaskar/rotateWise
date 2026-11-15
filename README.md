@@ -188,7 +188,7 @@ Reference documents for the crop calendar, traits and strategy cards are in [dat
 
 | Tool | Used for | Where |
 |---|---|---|
-| Claude Code (Anthropic, Claude Opus 5.5) | Wrote and ran the code; located and summarised sources; drafted this README | All of `src/`, `app.py`, `web/`, `tests/`, `notebooks/`, `reports/`, `data/*.csv` |
+| Claude Code (Anthropic, Claude Opus 5.5) | Helped write/debug and run the code; located and summarised sources; drafted this README | All of `src/`, `app.py`, `web/`, `tests/`, `notebooks/`, `reports/`, `data/*.csv` |
 | Gemini (Google), optional | Rewrites a computed strategy card in plain language; rejected if it adds any number | Streamlit fallback only, when `GEMINI_API_KEY` is set. Not used by the website (a browser-side key would be exposed) |
 
 Human checks are tracked in [reports/provenance.md](reports/provenance.md).
