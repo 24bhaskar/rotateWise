@@ -1,0 +1,10 @@
+.venv/
+.cache/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+data/raw/
+web/node_modules/
+web/dist/

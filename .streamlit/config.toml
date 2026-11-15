@@ -1,0 +1,6 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+# serves ./static at /app/static so Plotly's base geography loads without the internet
+enableStaticServing = true

@@ -1,0 +1,72 @@
+{
+ "units": "change in (actual - predicted) anomaly, percentage points, per +10 points of diverse-crop share",
+ "caveat": "Suggestive only: counties differ in soils, livestock, farm size and management.",
+ "corn": {
+  "all_years": {
+   "slope": 0.74,
+   "ci90_year_bootstrap": [
+    -0.49,
+    1.9
+   ],
+   "n": 2470,
+   "years": [
+    2000,
+    2025
+   ]
+  },
+  "2012": {
+   "slope": -6.837,
+   "ci90_county_bootstrap": [
+    -10.34,
+    -1.1
+   ],
+   "n": 99,
+   "share_from_year": 2012,
+   "median_share_pct": 0.2
+  },
+  "2020": {
+   "slope": 6.36,
+   "ci90_county_bootstrap": [
+    1.54,
+    22.78
+   ],
+   "n": 95,
+   "share_from_year": 2020,
+   "median_share_pct": 0.2
+  }
+ },
+ "soy": {
+  "all_years": {
+   "slope": -0.012,
+   "ci90_year_bootstrap": [
+    -1.93,
+    1.76
+   ],
+   "n": 2437,
+   "years": [
+    2000,
+    2025
+   ]
+  },
+  "2012": {
+   "slope": -4.605,
+   "ci90_county_bootstrap": [
+    -7.69,
+    -0.64
+   ],
+   "n": 99,
+   "share_from_year": 2012,
+   "median_share_pct": 0.2
+  },
+  "2020": {
+   "slope": 0.264,
+   "ci90_county_bootstrap": [
+    -10.2,
+    4.26
+   ],
+   "n": 86,
+   "share_from_year": 2020,
+   "median_share_pct": 0.2
+  }
+ }
+}

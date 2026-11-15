@@ -1,0 +1,51 @@
+crop,trait,value,scale,source_id,verified,notes
+corn,seasonal_water_use,22,inches per season,S02,pending_human,"ISU: corn and soybean seasonal use about 21.5-22.3 in across Iowa regions; S03 gives 16-22 in depending on yield"
+soybean,seasonal_water_use,22,inches per season,S02,pending_human,"ISU: about the same total as corn, used somewhat later in the season"
+oats,seasonal_water_use,NEEDS_SOURCE,inches per season,,N,No opened source gives oat water use in Iowa
+red_clover,seasonal_water_use,NEEDS_SOURCE,inches per season,,N,No opened source
+cereal_rye,seasonal_water_use,NEEDS_SOURCE,inches per season,,N,No opened source
+corn,n_fixation,NEEDS_SOURCE,lb N/acre,,N,"Grass; S06 says grasses are not an N source, but S06 covers cover crops only"
+soybean,n_fixation,NEEDS_SOURCE,lb N/acre,,N,No opened source
+oats,n_fixation,0,lb N/acre,S06,pending_human,SARE chart: grasses are not considered an N source
+red_clover,n_fixation,70-150,lb N/acre (total N),S06,pending_human,SARE chart 2 total N from all plant
+cereal_rye,n_fixation,0,lb N/acre,S06,pending_human,SARE chart: grasses are not considered an N source
+corn,rooting_depth,NEEDS_SOURCE,ft,,N,No opened source
+soybean,rooting_depth,NEEDS_SOURCE,ft,,N,No opened source
+oats,rooting_depth,NEEDS_SOURCE,ft,,N,No opened source
+red_clover,rooting_depth,NEEDS_SOURCE,ft,,N,No opened source
+cereal_rye,rooting_depth,NEEDS_SOURCE,ft,,N,No opened source
+corn,residue_cover,NEEDS_SOURCE,lb dry matter/acre,,N,No opened source
+soybean,residue_cover,NEEDS_SOURCE,lb dry matter/acre,,N,No opened source
+oats,residue_cover,2000-10000,lb dry matter/acre/yr,S06,pending_human,SARE chart 2 dry matter range
+red_clover,residue_cover,2000-5000,lb dry matter/acre/yr,S06,pending_human,SARE chart 2 dry matter range
+cereal_rye,residue_cover,3000-10000,lb dry matter/acre/yr,S06,pending_human,SARE chart 2 dry matter range
+corn,soil_organic_matter_contribution,NEEDS_SOURCE,rating,,N,"SARE 'soil builder' ratings are graphics that could not be read"
+soybean,soil_organic_matter_contribution,NEEDS_SOURCE,rating,,N,
+oats,soil_organic_matter_contribution,NEEDS_SOURCE,rating,,N,"SARE 'soil builder' rating not readable; human to read chart 2"
+red_clover,soil_organic_matter_contribution,NEEDS_SOURCE,rating,,N,"SARE 'soil builder' rating not readable; human to read chart 2"
+cereal_rye,soil_organic_matter_contribution,NEEDS_SOURCE,rating,,N,"SARE 'soil builder' rating not readable; human to read chart 2"
+corn,pest_cycle_break,non-host for SCN,text,S11,pending_human,ISU SCN page: corn is not an SCN host
+soybean,pest_cycle_break,SCN host,text,S11,pending_human,
+oats,pest_cycle_break,NEEDS_SOURCE,text,,N,Not confirmed from the opened SCN host table
+red_clover,pest_cycle_break,SCN host (risk),text,S11,pending_human,ISU lists clovers among SCN hosts: a risk for strategy C to review locally
+cereal_rye,pest_cycle_break,NEEDS_SOURCE,text,,N,
+corn,forage_value,none (grain),text,,N,
+soybean,forage_value,none (grain),text,,N,
+oats,forage_value,1 ton straw/acre (budget assumption),tons/acre,S10,pending_human,ISU oat budget assumes 80 bu grain plus 1 ton straw
+red_clover,forage_value,excellent forage,text,S06;S07,pending_human,SARE and ISU both describe excellent forage quality
+cereal_rye,forage_value,grazing possible,text,S13,pending_human,"CARD study: partial grazing raised average net return from about -$50 to -$10/acre"
+corn,market_suitability_iowa,NEEDS_SOURCE,text,,N,Local markets are an information gap by design
+soybean,market_suitability_iowa,NEEDS_SOURCE,text,,N,
+oats,market_suitability_iowa,NEEDS_SOURCE,text,,N,Local oat and straw markets not checked
+red_clover,market_suitability_iowa,NEEDS_SOURCE,text,,N,Local hay markets not checked
+cereal_rye,market_suitability_iowa,not sold (cover crop),text,S12,pending_human,
+corn,labor_passes,2.55,operator hours/acre,S10,pending_human,ISU 2026 corn following soybeans budget
+soybean,labor_passes,2.2,operator hours/acre,S10,pending_human,ISU 2026 soybeans following corn ($44.88 at $20.40/h)
+oats,labor_passes,1.0,operator hours/acre,S10,pending_human,ISU 2026 oat/small-grain budget example (seeding and harvest; hay cuttings extra)
+red_clover,labor_passes,NEEDS_SOURCE,operator hours/acre,,N,Hay cutting adds about 2 h per cutting in ISU alfalfa budgets; not checked for clover
+cereal_rye,labor_passes,NEEDS_SOURCE,operator hours/acre,,N,Adds a seeding pass and a termination pass (S04; S05); hours not sourced
+corn,input_cost_relative,911.98,USD/acre total cost,S10,pending_human,ISU 2026 corn following soybeans (211 bu)
+soybean,input_cost_relative,679.11,USD/acre total cost,S10,pending_human,ISU 2026 soybeans following corn (61 bu)
+oats,input_cost_relative,540.32,USD/acre total cost,S10,pending_human,ISU 2026 oats with forage seeding
+red_clover,input_cost_relative,NEEDS_SOURCE,USD/acre,,N,Included in the oats-with-forage-seeding budget above
+cereal_rye,input_cost_relative,net return -48.82 before corn / -38.42 before soybean,USD/acre,S12,pending_human,"Iowa survey, no cost-share or grazing; S13 gives about -$50 before no-till corn"

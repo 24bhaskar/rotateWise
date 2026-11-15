@@ -1,0 +1,24 @@
+id,url,status,checked
+S01,https://quickstats.nass.usda.gov/,OK,2026-11-14
+S02,https://crops.extension.iastate.edu/encyclopedia/crop-water-use-or-evapotranspiration,OK,2026-11-14
+S03,https://crops.extension.iastate.edu/cropnews/2017/06/corn-water-use-and-evapotranspiration,OK,2026-11-14
+S04,https://crops.extension.iastate.edu/post/corn-after-cereal-rye-cover-crop-2021,OK,2026-11-14
+S05,https://iowaagriculture.gov/news/cereal-rye-cover-crop-seeding-date-extended-dec-1-statewide,OK,2026-11-14
+S06,https://www.sare.org/wp-content/uploads/chart2-performance-and-roles.pdf,OK,2026-11-14
+S07,https://crops.extension.iastate.edu/cropnews/2025/03/should-i-frost-seed,OK,2026-11-14
+S08,https://practicalfarmers.org/resources/research-reports/establishing-legume-forages-with-oats,OK,2026-11-14
+S09,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0047149,OK,2026-11-14
+S10,https://www.extension.iastate.edu/agdm/crops/html/a1-20.html,HTTP 403,2026-11-14
+S11,https://crops.extension.iastate.edu/encyclopedia/soybean-cyst-nematode,OK,2026-11-14
+S12,https://agpolicyreview.card.iastate.edu/spring-2018/do-cover-crops-pay-net-returns-cornsoybean-farmers-iowa,OK,2026-11-14
+S13,https://www.card.iastate.edu/publications/22-wp-641,OK,2026-11-14
+D1,https://quickstats.nass.usda.gov/,OK,2026-11-14
+D2,https://power.larc.nasa.gov/,OK,2026-11-14
+D3,https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_500k.zip,OK,2026-11-14
+D7,https://quickstats.nass.usda.gov/,OK,2026-11-14
+D8,https://quickstats.nass.usda.gov/,OK,2026-11-14
+D9,https://sdmdataaccess.sc.egov.usda.gov/,OK,2026-11-14
+D11,https://modis.ornl.gov/rst/api/v1/,FAILED (ReadTimeout),2026-11-14
+D15,https://droughtmonitor.unl.edu/,OK,2026-11-14
+D16,https://www.spc.noaa.gov/climo/reports/200810_rpts.html,OK,2026-11-14
+D17,https://www.rma.usda.gov/tools-reports/summary-of-business/cause-loss,OK,2026-11-14

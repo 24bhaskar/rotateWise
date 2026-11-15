@@ -1,0 +1,55 @@
+{
+ "corn": {
+  "model_id": "M6_S1",
+  "model": "M6 GAM 5f",
+  "params": {
+   "features": [
+    "jul_tmax_mean",
+    "precip_jun_aug",
+    "gwetroot_aug_mean",
+    "heat_days_jul_aug",
+    "water_balance_jja"
+   ]
+  },
+  "trend": "per-county OLS",
+  "features": [
+   "jul_tmax_mean",
+   "precip_jun_aug",
+   "gwetroot_aug_mean",
+   "heat_days_jul_aug",
+   "water_balance_jja"
+  ],
+  "lin": "M3_S1",
+  "tree": "M7_l8d2m50r10",
+  "gam": "M6_S1"
+ },
+ "soy": {
+  "model_id": "M6_S1",
+  "model": "M6 GAM 5f",
+  "params": {
+   "features": [
+    "jul_tmax_mean",
+    "precip_jun_aug",
+    "gwetroot_aug_mean",
+    "heat_days_jul_aug",
+    "water_balance_jja"
+   ]
+  },
+  "trend": "per-county OLS",
+  "features": [
+   "jul_tmax_mean",
+   "precip_jun_aug",
+   "gwetroot_aug_mean",
+   "heat_days_jul_aug",
+   "water_balance_jja"
+  ],
+  "lin": "M3_S1",
+  "tree": "M7_l8d2m100r1",
+  "gam": "M6_S1"
+ },
+ "frozen_at": "2026-11-14T18:48:17",
+ "dev_years": [
+  2000,
+  2019
+ ]
+}

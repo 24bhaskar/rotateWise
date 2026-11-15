@@ -1,0 +1,10 @@
+{
+ "url": "https://www.spc.noaa.gov/climo/reports/200810_rpts_wind.csv",
+ "page": "https://www.spc.noaa.gov/climo/reports/200810_rpts.html",
+ "retrieved": "2026-11-14",
+ "wind_reports_total": 910,
+ "wind_reports_iowa": 216,
+ "story_county_reports": 7,
+ "max_speed_reported_mph_iowa": 130,
+ "summary": "NOAA SPC logged hundreds of severe-wind reports on 10 August 2020, many across central Iowa, as a fast-moving line of storms (a derecho) crossed the state."
+}

@@ -1,0 +1,6 @@
+{
+ "level": 0.9,
+ "halfwidth_pct": 19.57,
+ "dev_loyo_coverage_mean": 0.896,
+ "method": "split-conformal from leave-one-year-out residuals (dev years)"
+}

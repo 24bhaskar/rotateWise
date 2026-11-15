@@ -1,0 +1,5 @@
+# Exploratory analysis (development years 2000-2019 only)
+
+**Findings.** 52% of corn and 66% of soybean anomaly variance is shared by all counties in the same year, so the year is the real unit of evidence (20 dev years; POWER has only about 62 distinct grid cells for 99 counties). Persistence is weak: the pooled lag-1 correlation of anomalies is 0.26 (corn) and -0.02 (soy). The worst corn years were 2012 (-26%), 2010 (-10%), 2013 (-9%). The features most correlated with corn anomalies are jul_tmax_mean (-0.30), heat_days_jul_aug (-0.26), tmin_aug_mean (-0.18), gdd_season (-0.13). Features with variance inflation above 5: {'jul_tmax_mean': np.float64(8.68), 'precip_jun_aug': np.float64(12.89), 'gwetroot_aug_mean': np.float64(17.07), 'heat_days_jul_aug': np.float64(12.66), 'water_balance_jja': np.float64(7.98), 'gwetroot_jul_mean': np.float64(17.27)}; heat, Tmax and degree days overlap, which favours regularised models. Test-period weather outside the dev range: ['heavy_rain_days_mj']. SMAP vs POWER comparison: not run (no Earthdata credentials; see human_todo.md).
+
+Full numbers: `reports/eda.json`.

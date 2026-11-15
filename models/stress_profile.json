@@ -1,0 +1,77 @@
+{
+ "corn": {
+  "4": 0.0,
+  "5": 0.0,
+  "6": 0.1578,
+  "7": 0.6509,
+  "8": 0.1912,
+  "9": 0.0,
+  "10": 0.0
+ },
+ "soybean": {
+  "4": 0.0,
+  "5": 0.0,
+  "6": 0.2169,
+  "7": 0.3967,
+  "8": 0.3864,
+  "9": 0.0,
+  "10": 0.0
+ },
+ "other_crops_timing_proxy": {
+  "4": 0.0,
+  "5": 0.0,
+  "6": 0.1874,
+  "7": 0.5238,
+  "8": 0.2888,
+  "9": 0.0,
+  "10": 0.0
+ },
+ "method": "mean |SHAP| per feature from the final model, spread evenly over the months in each feature's window (FEATURE_MONTHS), normalised over Apr-Oct to sum to 1",
+ "feature_months": {
+  "jul_tmax_mean": [
+   7
+  ],
+  "heat_days_jul_aug": [
+   7,
+   8
+  ],
+  "precip_jun_aug": [
+   6,
+   7,
+   8
+  ],
+  "precip_jul_aug": [
+   7,
+   8
+  ],
+  "gwetroot_aug_mean": [
+   8
+  ],
+  "gwetroot_jul_mean": [
+   7
+  ],
+  "water_balance_jja": [
+   6,
+   7,
+   8
+  ],
+  "tmin_aug_mean": [
+   8
+  ],
+  "spring_frost_days": [
+   4,
+   5
+  ],
+  "heavy_rain_days_mj": [
+   5,
+   6
+  ],
+  "gdd_season": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ]
+ }
+}

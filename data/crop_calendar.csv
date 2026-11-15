@@ -1,0 +1,16 @@
+crop,event,start_month_day,typical_month_day,end_month_day,source_id,rule,verified
+corn,planting,04-26,05-06,05-20,S01,median 2000-2019 date Iowa reached 10% pct planted to 90% pct planted,pending_human
+corn,critical,07-13,08-06,08-30,S01,median 2000-2019 date Iowa reached 10% pct silking to 50% pct dented,pending_human
+corn,harvest,10-03,10-27,11-12,S01,median 2000-2019 date Iowa reached 10% pct harvested to 90% pct harvested,pending_human
+soybean,planting,05-09,05-21,06-02,S01,median 2000-2019 date Iowa reached 10% pct planted to 90% pct planted,pending_human
+soybean,critical,07-17,08-15,09-13,S01,median 2000-2019 date Iowa reached 10% pct setting pods to 50% pct coloring,pending_human
+soybean,harvest,10-01,10-11,10-30,S01,median 2000-2019 date Iowa reached 10% pct harvested to 90% pct harvested,pending_human
+oats,planting,04-09,04-19,05-04,S01,median 2000-2019 date Iowa reached 10% pct planted to 90% pct planted,pending_human
+oats,critical,06-03,06-21,07-09,S01,median 2000-2019 date Iowa reached 10% pct headed to 50% pct coloring,pending_human
+oats,harvest,07-17,07-30,08-10,S01,median 2000-2019 date Iowa reached 10% pct harvested to 90% pct harvested,pending_human
+cereal_rye_before_soy,seeding,10-03,10-27,11-12,S05;S01,seed immediately after the corn harvest window,pending_human
+cereal_rye_before_soy,termination,05-09,05-21,06-02,S04;S01,terminate at or soon after soybean planting,pending_human
+cereal_rye_before_corn,seeding,10-01,10-11,10-30,S05;S01,seed immediately after the soybean harvest window,pending_human
+cereal_rye_before_corn,termination,04-12,04-22,05-06,S04;S01,terminate at least 10-14 days before corn planting (14 used),pending_human
+red_clover,seeding,02-15,03-15,04-19,S07;S08,"frost seeded mid-Feb to early Mar, or seeded with oats in March",pending_human
+red_clover,termination,04-12,04-22,05-06,none (author estimate),"assumed: terminated the next spring about 2 weeks before corn planting, like rye",N

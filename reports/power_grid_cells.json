@@ -1,0 +1,14 @@
+{
+ "counties": 99,
+ "approx_unique_merra2_cells": 62,
+ "missing_values": {
+  "t2m_max": 0,
+  "t2m_min": 0,
+  "prectotcorr": 0,
+  "gwetroot": 0,
+  "gwettop": 0,
+  "evptrns": 0,
+  "rh2m": 0,
+  "ws2m": 0
+ }
+}

@@ -1,0 +1,18 @@
+source_id,url_tested,date_tested,status,what_was_different,fix_applied
+D1,https://quickstats.nass.usda.gov/api/api_GET/,2026-11-14,OK,"Story corn grain yield years >=2023: [np.int64(2023), np.int64(2024), np.int64(2025)]",
+D6,https://quickstats.nass.usda.gov/api/api_GET/,2026-11-14,OK,"Iowa oats progress 2019 short_desc: ['OATS - PROGRESS, MEASURED IN PCT COLORING', 'OATS - PROGRESS, MEASURED IN PCT EMERGED', 'OATS - PROGRESS, MEASURED IN PCT HARVESTED', 'OATS - PROGRESS, MEASURED IN PCT HEADED', 'OATS - PROGRESS, MEASURED IN PCT PLANTED']",
+check_acreage,,2026-11-14,FAILED,HTTPError('400 Client Error: Bad Request for url: https://quickstats.nass.usda.gov/api/api_GET/?key=<KEY>&format=JSON&source_desc=SURVEY&agg_level_desc=COUNTY&state_alpha=IA&commodity_desc=BARLEY&statisticcat_desc=AREA+HARVESTED&year=2012'),
+D8,https://quickstats.nass.usda.gov/api/api_GET/,2026-11-14,OK,"rows=4 short_desc=['PRACTICES, LAND USE, CROPLAND, COVER CROP PLANTED, (EXCL CRP) - ACRES', 'PRACTICES, LAND USE, CROPLAND, COVER CROP PLANTED, (EXCL CRP) - AREA, MEASURED IN ACRES / OPERATION', 'PRACTICES, LAND USE, CROPLAND, COVER CROP PLANTED, (EXCL CRP) - AREA, MEASURED IN PCT OF FARM OPERATIONS'] values=['12', '14,615', '130']",
+D2,https://power.larc.nasa.gov/api/temporal/daily/point,2026-11-14,OK,"units={'T2M_MAX': 'C', 'T2M_MIN': 'C', 'PRECTOTCORR': 'mm/day', 'GWETROOT': '1', 'GWETTOP': '1', 'EVPTRNS': 'MJ/m^2/day', 'RH2M': '%', 'WS2M': 'm/s'} last-day values={'T2M_MAX': 6.7, 'T2M_MIN': -6.0, 'PRECTOTCORR': 0.0, 'GWETROOT': 0.48, 'GWETTOP': 0.52, 'EVPTRNS': 0.01, 'RH2M': 84.74, 'WS2M': 4.3} grid=[-93.466, 42.036]",
+D3,https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_500k.zip,2026-11-14,OK,"HTTP 200, 11.6 MB",
+D11,https://modis.ornl.gov/rst/api/v1/MOD13Q1/subset,2026-11-14,OK,"3 dates, first=2012-07-11 raw=[8489] scale=0.0001",
+D15,https://usdmdataservices.unl.edu/api/CountyStatistics/GetDroughtSeverityStatisticsByAreaPercent,2026-11-14,OK,"6 weeks; first={'mapDate': '2012-07-31T00:00:00', 'fips': '19169', 'county': 'Story County', 'state': 'IA', 'none': 0.0, 'd0': 100.0, 'd1': 100.0, 'd2': 100.0, 'd3': 90.62, 'd4': 0.0, 'validStart': '2012-07-31T00:00:00', 'validEnd': '2012-08-06T23:59:00', 'statisticFormatID': 1}",
+D16,https://www.spc.noaa.gov/climo/reports/200810_rpts_wind.csv,2026-11-14,OK,"910 wind reports, 216 in IA; cols=['Time', 'Speed', 'Location', 'County', 'State', 'Lat', 'Lon', 'Comments']",
+D17,https://pubfs-rma.fpac.usda.gov/pub/Web_Data_Files/Summary_of_Business/cause_of_loss/colsom_2020.zip,2026-11-14,OK,['colsom_2020.txt'] first line: 2020|01|AL|001|Autauga                       |0021|Cotton                        |02|RP        |A|H |31|Excess Moisture/Precipitation/Rain|09|SEP|2020|1|1|38.9250000000|.0000000000|11519.0000000000|13,
+D9,https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest,2026-11-14,OK,"[['musym', 'muname'], ['1178', 'Waukee variant loam, 0 to 2 percent slopes'], ['1314', 'Hanlon-Spillville complex, channeled, 0 to 2 percent slopes'], ['136B', 'Ankeny fine sandy loam, 2 to 5 percent slopes']]",
+check_smap,,2026-11-14,FAILED,RuntimeError('no Earthdata credentials in environment (EARTHDATA_USERNAME/PASSWORD or TOKEN)'),
+D5,https://extension.iastate.edu/,2026-11-14,OK,"HTTP 200, 57 kB",
+D19,https://www.extension.iastate.edu/agdm/,2026-11-14,OK,"HTTP 200, 27 kB",
+D18,https://agrisk.jornada.nmsu.edu/,2026-11-14,OK,"HTTP 200, 151 kB",
+D16b,https://www.spc.noaa.gov/climo/reports/200810_rpts.html,2026-11-14,OK,"HTTP 200, 793 kB",
+D17,https://www.rma.usda.gov/tools-reports/summary-business/cause-loss,2026-11-14,CHANGED,spec page URL returns 404; current official page found by search,use https://www.rma.usda.gov/tools-reports/summary-of-business/cause-loss

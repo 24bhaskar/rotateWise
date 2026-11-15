@@ -1,0 +1,31 @@
+{
+ "county": "Story County, Iowa (IA169)",
+ "source": "USDA-NRCS Soil Data Access (SSURGO)",
+ "url": "https://sdmdataaccess.sc.egov.usda.gov/",
+ "retrieved": "2026-11-14",
+ "major_component_acres": 318957,
+ "drainage_class_pct_of_area": {
+  "Poorly drained": 39.4,
+  "Well drained": 34.4,
+  "Somewhat poorly drained": 16.0,
+  "Moderately well drained": 4.8,
+  "Very poorly drained": 2.2,
+  "Somewhat excessively drained": 1.3,
+  "Excessively drained": 0.4
+ },
+ "surface_organic_matter_pct_area_weighted": 5.31,
+ "slope_class_pct_of_area": {
+  "0-2%": 59.8,
+  "2-5%": 26.2,
+  "5-9%": 7.9,
+  ">9%": 4.8
+ },
+ "top_map_units": {
+  "Clarion loam, Bemis moraine, 2 to 6 percent slopes": 62692.0,
+  "Webster clay loam, Bemis moraine, 0 to 2 percent slopes": 53425.0,
+  "Nicollet loam, 1 to 3 percent slopes": 38813.0,
+  "Canisteo clay loam, Bemis moraine, 0 to 2 percent slopes": 24680.0,
+  "Clarion loam, Bemis moraine, 6 to 10 percent slopes, moderately eroded": 13486.0
+ },
+ "note": "Descriptive only; county-wide summary of major components, not a field-level soil test."
+}

@@ -1,0 +1,69 @@
+/* Design tokens: "warm field almanac". Light by default, dark via prefers-color-scheme. */
+:root {
+  --bg: #fbf7ef;
+  --surface: #ffffff;
+  --surface-2: #f3ecdf;
+  --ink: #2b2a26;
+  --ink-2: #5a564d;
+  --ink-3: #7c766a;
+  --line: #e4dccb;
+  --soil: #6b4f3a;
+  --soil-soft: #e9dccd;
+  --crop: #3d7a4a;
+  --crop-soft: #dcebdc;
+  --wheat: #b9852a;
+  --wheat-soft: #f6e7c4;
+  --sky: #3f74a3;
+  --sky-soft: #dde9f3;
+  --rust: #a8482a;
+  --rust-soft: #f5ddd3;
+  --focus: #1f6feb;
+  --on-accent: #ffffff;
+
+  /* chart palette: colour-blind safe, also always labelled directly */
+  --c-a: #6b4f3a; /* existing rotation: soil */
+  --c-b: #3f74a3; /* + rye: sky */
+  --c-c: #b9852a; /* + oats/clover: wheat */
+  --c-model: #3d7a4a;
+  --c-base: #9a9284;
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Source Sans 3 Variable", "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 72px;
+  --r-1: 8px; --r-2: 12px; --r-3: 16px; --r-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(60, 45, 20, 0.06), 0 2px 8px rgba(60, 45, 20, 0.05);
+  --shadow-2: 0 2px 4px rgba(60, 45, 20, 0.06), 0 10px 28px rgba(60, 45, 20, 0.09);
+  --maxw: 1120px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1915;
+    --surface: #24211c;
+    --surface-2: #2d2923;
+    --ink: #f1ebdf;
+    --ink-2: #cfc6b5;
+    --ink-3: #a59c8b;
+    --line: #3b362e;
+    --soil: #d2b394;
+    --soil-soft: #3a3027;
+    --crop: #7fbf8a;
+    --crop-soft: #24372a;
+    --wheat: #e2b55a;
+    --wheat-soft: #3d3221;
+    --sky: #8db8de;
+    --sky-soft: #22313f;
+    --rust: #e58a6b;
+    --rust-soft: #3f2a22;
+    --focus: #7aa7ff;
+    --on-accent: #1b1915;
+    --c-a: #d2b394;
+    --c-b: #8db8de;
+    --c-c: #e2b55a;
+    --c-model: #7fbf8a;
+    --c-base: #8a8273;
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-2: 0 4px 18px rgba(0, 0, 0, 0.35);
+  }
+}

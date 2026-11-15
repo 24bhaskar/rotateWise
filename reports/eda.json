@@ -1,0 +1,257 @@
+{
+ "corn": {
+  "county_years": 1955,
+  "missing_county_years": 25,
+  "share_variance_statewide_year": 0.516,
+  "mean_crosssection_corr_with_previous_year": 0.058,
+  "pooled_lag1_corr": 0.257,
+  "corr_anomaly_with_features": {
+   "jul_tmax_mean": -0.298,
+   "precip_jun_aug": 0.126,
+   "gwetroot_aug_mean": -0.002,
+   "heat_days_jul_aug": -0.258,
+   "water_balance_jja": 0.0,
+   "gwetroot_jul_mean": -0.04,
+   "tmin_aug_mean": -0.181,
+   "spring_frost_days": -0.051,
+   "heavy_rain_days_mj": -0.058,
+   "gdd_season": -0.132
+  },
+  "worst_years": {
+   "2012": -25.8,
+   "2010": -9.9,
+   "2013": -9.4
+  },
+  "best_years": {
+   "2004": 14.5,
+   "2016": 10.0,
+   "2017": 6.4
+  }
+ },
+ "soy": {
+  "county_years": 1955,
+  "missing_county_years": 25,
+  "share_variance_statewide_year": 0.66,
+  "mean_crosssection_corr_with_previous_year": -0.098,
+  "pooled_lag1_corr": -0.024,
+  "corr_anomaly_with_features": {
+   "jul_tmax_mean": -0.038,
+   "precip_jun_aug": 0.242,
+   "gwetroot_aug_mean": 0.097,
+   "heat_days_jul_aug": -0.127,
+   "water_balance_jja": 0.205,
+   "gwetroot_jul_mean": -0.069,
+   "tmin_aug_mean": -0.126,
+   "spring_frost_days": -0.035,
+   "heavy_rain_days_mj": -0.149,
+   "gdd_season": 0.095
+  },
+  "worst_years": {
+   "2003": -28.8,
+   "2013": -13.7,
+   "2012": -12.7
+  },
+  "best_years": {
+   "2005": 12.7,
+   "2016": 10.6,
+   "2007": 8.5
+  }
+ },
+ "feature_corr": {
+  "jul_tmax_mean": {
+   "jul_tmax_mean": 1.0,
+   "precip_jun_aug": -0.54,
+   "gwetroot_aug_mean": -0.43,
+   "heat_days_jul_aug": 0.9,
+   "water_balance_jja": -0.05,
+   "gwetroot_jul_mean": -0.57,
+   "tmin_aug_mean": 0.35,
+   "spring_frost_days": -0.19,
+   "heavy_rain_days_mj": -0.45,
+   "gdd_season": 0.74
+  },
+  "precip_jun_aug": {
+   "jul_tmax_mean": -0.54,
+   "precip_jun_aug": 1.0,
+   "gwetroot_aug_mean": 0.64,
+   "heat_days_jul_aug": -0.55,
+   "water_balance_jja": 0.79,
+   "gwetroot_jul_mean": 0.51,
+   "tmin_aug_mean": 0.05,
+   "spring_frost_days": -0.08,
+   "heavy_rain_days_mj": 0.37,
+   "gdd_season": -0.27
+  },
+  "gwetroot_aug_mean": {
+   "jul_tmax_mean": -0.43,
+   "precip_jun_aug": 0.64,
+   "gwetroot_aug_mean": 1.0,
+   "heat_days_jul_aug": -0.49,
+   "water_balance_jja": 0.41,
+   "gwetroot_jul_mean": 0.92,
+   "tmin_aug_mean": 0.02,
+   "spring_frost_days": -0.12,
+   "heavy_rain_days_mj": 0.41,
+   "gdd_season": -0.18
+  },
+  "heat_days_jul_aug": {
+   "jul_tmax_mean": 0.9,
+   "precip_jun_aug": -0.55,
+   "gwetroot_aug_mean": -0.49,
+   "heat_days_jul_aug": 1.0,
+   "water_balance_jja": -0.06,
+   "gwetroot_jul_mean": -0.59,
+   "tmin_aug_mean": 0.54,
+   "spring_frost_days": -0.15,
+   "heavy_rain_days_mj": -0.44,
+   "gdd_season": 0.75
+  },
+  "water_balance_jja": {
+   "jul_tmax_mean": -0.05,
+   "precip_jun_aug": 0.79,
+   "gwetroot_aug_mean": 0.41,
+   "heat_days_jul_aug": -0.06,
+   "water_balance_jja": 1.0,
+   "gwetroot_jul_mean": 0.17,
+   "tmin_aug_mean": 0.22,
+   "spring_frost_days": -0.24,
+   "heavy_rain_days_mj": 0.09,
+   "gdd_season": 0.08
+  },
+  "gwetroot_jul_mean": {
+   "jul_tmax_mean": -0.57,
+   "precip_jun_aug": 0.51,
+   "gwetroot_aug_mean": 0.92,
+   "heat_days_jul_aug": -0.59,
+   "water_balance_jja": 0.17,
+   "gwetroot_jul_mean": 1.0,
+   "tmin_aug_mean": -0.08,
+   "spring_frost_days": 0.02,
+   "heavy_rain_days_mj": 0.54,
+   "gdd_season": -0.32
+  },
+  "tmin_aug_mean": {
+   "jul_tmax_mean": 0.35,
+   "precip_jun_aug": 0.05,
+   "gwetroot_aug_mean": 0.02,
+   "heat_days_jul_aug": 0.54,
+   "water_balance_jja": 0.22,
+   "gwetroot_jul_mean": -0.08,
+   "tmin_aug_mean": 1.0,
+   "spring_frost_days": -0.13,
+   "heavy_rain_days_mj": -0.05,
+   "gdd_season": 0.63
+  },
+  "spring_frost_days": {
+   "jul_tmax_mean": -0.19,
+   "precip_jun_aug": -0.08,
+   "gwetroot_aug_mean": -0.12,
+   "heat_days_jul_aug": -0.15,
+   "water_balance_jja": -0.24,
+   "gwetroot_jul_mean": 0.02,
+   "tmin_aug_mean": -0.13,
+   "spring_frost_days": 1.0,
+   "heavy_rain_days_mj": 0.22,
+   "gdd_season": -0.17
+  },
+  "heavy_rain_days_mj": {
+   "jul_tmax_mean": -0.45,
+   "precip_jun_aug": 0.37,
+   "gwetroot_aug_mean": 0.41,
+   "heat_days_jul_aug": -0.44,
+   "water_balance_jja": 0.09,
+   "gwetroot_jul_mean": 0.54,
+   "tmin_aug_mean": -0.05,
+   "spring_frost_days": 0.22,
+   "heavy_rain_days_mj": 1.0,
+   "gdd_season": -0.25
+  },
+  "gdd_season": {
+   "jul_tmax_mean": 0.74,
+   "precip_jun_aug": -0.27,
+   "gwetroot_aug_mean": -0.18,
+   "heat_days_jul_aug": 0.75,
+   "water_balance_jja": 0.08,
+   "gwetroot_jul_mean": -0.32,
+   "tmin_aug_mean": 0.63,
+   "spring_frost_days": -0.17,
+   "heavy_rain_days_mj": -0.25,
+   "gdd_season": 1.0
+  }
+ },
+ "vif": {
+  "jul_tmax_mean": 8.68,
+  "precip_jun_aug": 12.89,
+  "gwetroot_aug_mean": 17.07,
+  "heat_days_jul_aug": 12.66,
+  "water_balance_jja": 7.98,
+  "gwetroot_jul_mean": 17.27,
+  "tmin_aug_mean": 3.05,
+  "spring_frost_days": 1.22,
+  "heavy_rain_days_mj": 1.74,
+  "gdd_season": 3.47
+ },
+ "ranges": {
+  "jul_tmax_mean": {
+   "dev_min": 23.85,
+   "dev_max": 37.98,
+   "test_min": 26.09,
+   "test_max": 33.78
+  },
+  "precip_jun_aug": {
+   "dev_min": 101.95,
+   "dev_max": 766.9,
+   "test_min": 136.27,
+   "test_max": 579.15
+  },
+  "gwetroot_aug_mean": {
+   "dev_min": 0.26,
+   "dev_max": 0.88,
+   "test_min": 0.27,
+   "test_max": 0.69
+  },
+  "heat_days_jul_aug": {
+   "dev_min": 0.0,
+   "dev_max": 57.0,
+   "test_min": 1.0,
+   "test_max": 54.0
+  },
+  "water_balance_jja": {
+   "dev_min": -99.86,
+   "dev_max": 509.93,
+   "test_min": -23.14,
+   "test_max": 342.33
+  },
+  "gwetroot_jul_mean": {
+   "dev_min": 0.26,
+   "dev_max": 0.88,
+   "test_min": 0.29,
+   "test_max": 0.78
+  },
+  "tmin_aug_mean": {
+   "dev_min": 12.59,
+   "dev_max": 21.35,
+   "test_min": 15.14,
+   "test_max": 20.38
+  },
+  "spring_frost_days": {
+   "dev_min": 0.0,
+   "dev_max": 15.0,
+   "test_min": 0.0,
+   "test_max": 10.0
+  },
+  "heavy_rain_days_mj": {
+   "dev_min": 0.0,
+   "dev_max": 7.0,
+   "test_min": 0.0,
+   "test_max": 8.0
+  },
+  "gdd_season": {
+   "dev_min": 1197.66,
+   "dev_max": 2013.06,
+   "test_min": 1300.69,
+   "test_max": 1952.43
+  }
+ },
+ "power_cells": 62
+}
