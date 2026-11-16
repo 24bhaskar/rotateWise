@@ -141,7 +141,7 @@ Reference documents for the crop calendar, traits and strategy cards are in [dat
    on training years only**. For test year Y it is fit on years before Y (expanding); a fixed 2000-2019 trend is the
    sensitivity check.
 3. **Split:** development years 2000-2019 (all exploration, tuning and selection), leave-one-year-out CV (all
-   counties of a year held out together). Test year 2025.
+   counties of a year held out together). Test year 2020-2025.
 4. **Model ladder (B9):** M0 zero anomaly, M1 persistence, M2 3-feature ridge, M3 ridge S1/S2, M4 elastic net,
    M5 ridge with heat-hinge and heat × dryness, M6 monotone GAM, M7 constrained LightGBM (9 random configs),
    M8 shallow random forest; E1/E2/C1 only if their pre-declared triggers held. 18 tuned configs per crop, all logged.
