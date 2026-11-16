@@ -193,6 +193,8 @@ Reference documents for the crop calendar, traits and strategy cards are in [dat
 
 Human checks are tracked in [reports/provenance.md](reports/provenance.md).
 
+Testing Site at: https://rotate-wise.vercel.app/
+
 ## Reproduce
 
 ```bash
